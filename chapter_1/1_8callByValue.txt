@@ -2,3 +2,6 @@ Functions C are called by value.
 This means that the function is given the values of
 its arguments in temporary variables and can change those 
 temporary values, but not affect the outside values.
+
+However, when passing an array, you pass a pointer to the beginning
+of the array, so you can change them!!!
